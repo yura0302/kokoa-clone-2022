@@ -14,5 +14,33 @@
 }
 
 .nav__link {
+    position: relative;
     color:#2e363e;
+}
+
+.nav__notification {
+    background-color: tomato;
+    width: 22px;
+    height: 22px;
+    border-radius: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    position: absolute;
+    left: 20px;
+    bottom: 15px;
+}
+
+.nav__eclipsis {
+    background-color: tomato;
+    width: 5px;
+    height: 5px;
+    border-radius: 2.5px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    position: absolute;
+    right: 40px;  
 }
