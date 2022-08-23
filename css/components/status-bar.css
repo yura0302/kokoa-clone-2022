@@ -2,10 +2,9 @@
     display: flex;
     justify-content: center;
     font-weight: bold;
-    padding: 5px 3px ;
-    align-items: center;
-    position: fixed;
-    width: 100%;
+    padding: 7px 5px;
+    
+    
 }
 .status-bar__column {
     width: 33%;
@@ -21,6 +20,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    margin-top: -5px;
 }
 .status-bar__column .fa-rotate {
     margin: 5px ;
