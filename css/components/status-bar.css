@@ -4,6 +4,8 @@
     font-weight: bold;
     padding: 5px 3px ;
     align-items: center;
+    position: fixed;
+    width: 100%;
 }
 .status-bar__column {
     width: 33%;
@@ -28,3 +30,4 @@
 .status-bar__column .fa-battery-full {
     margin: 0px 5px ;
 }
+
