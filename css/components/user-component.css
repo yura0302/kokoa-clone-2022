@@ -1,5 +1,6 @@
 .user-component {
     justify-content: space-between;
+    
 }
 
 .user-component,
@@ -41,12 +42,21 @@
 
 .user-component__title--not-bold {
     font-weight: 400;
-    padding:20px;
 }
 
 
 .user-component__column:last-child {
-    color: rgba(0,0,0,0.5);
-    
+    color: rgba(0,0,0,0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
+.user-component__text {
+    padding: 20px;
+}
+
+.user-component__time {
+    margin-bottom: 10px;
+    display: block;
+}
