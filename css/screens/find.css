@@ -6,9 +6,13 @@
 .find-icons__icon {
   display: flex;
   flex-direction: column;
+<<<<<<< HEAD
   align-items: center;
 }
 
+=======
+}
+>>>>>>> main
 .find-icons__icon i {
   font-size: 35px;
 }
@@ -34,6 +38,7 @@
   font-size: 18px;
   color: rgba(0, 0, 0, 0.5);
 }
+<<<<<<< HEAD
 .open-chat__header {
   display: flex;
   justify-content: space-between;
@@ -87,3 +92,5 @@
 .open-post__member-status {
   color: #ffb0e0;
 }
+=======
+>>>>>>> main
