@@ -1,9 +1,0 @@
-.find-icons {
-    display: flex;
-    justify-content: space-between;
-}
-
-.find-icons__icon {
-    display: flex;
-    flex-direction: column;
-}
